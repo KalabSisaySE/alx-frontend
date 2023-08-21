@@ -1,3 +1,5 @@
+/* add universal box-sizing */
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
@@ -173,8 +175,7 @@ template {
   --section-title-color: var(--color-black);
 }
 
-*::before,
-*::after {
+* {
   box-sizing: border-box;
 }
 
