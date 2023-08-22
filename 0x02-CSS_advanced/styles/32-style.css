@@ -581,6 +581,7 @@ ul.row {
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* Incorporating transitions */
 
+/* Add transformations on the card work */
 .card-work:hover .card-image {
   transform: scale(1.2);
 }
@@ -589,15 +590,18 @@ ul.row {
   transform: scale(0.95);
 }
 
+/* Add animations on the navigation items */
 .nav .nav-link::before {
   transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
+/* Animate the button background */
 .button:hover {
   transition-duration: var(--transition-duration);
   transition-property: color, background-color;
 }
 
+/* Add transitions on the card works */
 .card-work:hover .card-image {
   transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
