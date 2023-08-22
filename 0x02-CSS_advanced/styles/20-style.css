@@ -348,8 +348,8 @@ ul.row {
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* Clear the context of the grid */
 
-.row {
-  content: none;
+.row::after {
+  content: "";
   display: table;
   clear: both;
 }
