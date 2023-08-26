@@ -324,7 +324,7 @@ a:active {
   }
 }
 
-@media (min-width: 481px) and (max-width: 481px) {
+@media (min-width: 481px) and (max-width: 767px) {
   html {
     font-size: 60%;
   }
